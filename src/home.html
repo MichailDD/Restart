@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+            <main class="page-index">
+
+                <div class="menu__container">
+                    <div class=" menu menu-header">
+                        <!-- <button type="button" class="menu__icon icon-menu"><span></span></button> -->
+                        <nav class="menu__body">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="aboute.html" class="menu__link">Про компанію</a></li>
+                                <li class="menu__item"><a href="network.html" class="menu__link">Мережа СТЦ</a></li>
+                                <li class="menu__item"><a href="home.html" class="menu__link">Інтернет-магазин</a></li>
+                                <li class="menu__item"><a href="solutions.html" class="menu__link">Готові рішення для СТО</a></li>
+                                <li class="menu__item"><a href="contacts.html" class="menu__link">Контакти</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                   </div>
+                <!-- Оболочка слайдера -->
+                <div class="index__slider swiper">
+                    <!-- Двигающееся часть слайдера -->
+                    <div class="index__wrapper swiper-wrapper">
+                        <!-- Слайд -->
+                        <div class="index__slide swiper-slide">
+                            <img src="../img/index/slide.png" alt="" class="index__image">
+                        </div>
+                        <div class="index__slide swiper-slide">
+                            <img src="../img/index/slide.png" alt="" class="index__image">
+                        </div>
+                    </div>
+                    <!-- Если нужна пагинация -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Если нужна навигация (влево/вправо) -->
+                    <div class="swiper__bloks">
+                        <button type="button" class="swiper-button-prev">
+                            <img src="../img/index/left.svg" alt="" class="button__img">
+                        </button>
+                        <span class="swiper__line"></span>
+                        <button type="button" class="swiper-button-next">
+                            <img src="../img/index/right.svg" alt="" class="button__img">
+                        </button>
+                    </div>
+                    <!-- Если нужен скролбар -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="index__card card-left">
+                    <div class="card__text">
+                        <img src="@img/index/icon-1.svg" alt="">
+                        <div class="card__title">Діагностика та ремонт
+                            стартерів, генераторів,
+                            кондиціонерів</div>
+                    </div>
+                    <button class="card__btn">Мережа сервісів</button>
+                </div>
+                <div class="index__card card-right">
+                    <div class="card__text">
+                        <img src="@img/index/icon-2.svg" alt="">
+                        <div class="card__title">Продаж стартерів,
+                            генераторів <br>
+                            та компонентів</div>
+                    </div>
+                    <button class="card__btn">Перейти в магазин</button>
+                </div>
+                <section class="proffecional">
+                    <div class="proffecional__container-big">
+                        <div class="proffecional__logo">
+                            <img src="../img/logo.svg" alt="Logo Restart">
+                        </div>
+                        <h2 class="proffecional__title">Справжні професіонали на ринку стартерів та генераторів</h2>
+                        <div class="proffecional__bloks">
+                            <div class="proffecional__card">
+                                <img src="../img/index/card1.jpg" alt="img" class="proffecional__image">
+                                <div class="cart__title">Мережа СТЦ</div>
+                                <hr class="cart__line">
+                                <div class="cart__text">Ремонт стартерів,<br>
+                                    генераторів, кондиціонерів</div>
+
+                            </div>
+                            <div class="proffecional__card">
+                                <img src="../img/index/card2.jpg" alt="" class="proffecional__image">
+                                <div class="cart__title">Інтернет-магазин</div>
+                                <hr class="cart__line">
+                                <div class="cart__text">Понад 15 000 позицій<br>
+                                    агрегатів та компонентів</div>
+
+                            </div>
+                            <div class="proffecional__card">
+                                <img src="../img/index/card3.jpg" alt="" class="proffecional__image">
+                                <div class="cart__title">Готові рішення</div>
+                                <hr class="cart__line">
+                                <div class="cart__text">Готові рішення <br>
+                                    в стар-ген сегменті для СТО</div>
+
+                            </div>
+                        </div>
+
+                        <h2 class="proffecional__text">
+                            У нас представлений широкий асортимент запчастин та комплектуючих для вантажних та легкових авто,<br>
+                                сільськогосподарських машин, водомоторної техніки, а також мотоциклів та промислового сектору ринку.
+                        </h2>
+                    </div>
+
+                </section>
+                <div class="menu__container-big">
+                    <div class=" menu menu-footer">
+                        <!-- <button type="button" class="menu__icon icon-menu"><span></span></button> -->
+                        <nav class="menu__body">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="aboute.html" class="menu__link">Про компанію</a></li>
+                                <li class="menu__item"><a href="network.html" class="menu__link">Мережа СТЦ</a></li>
+                                <li class="menu__item"><a href="home.html" class="menu__link">Інтернет-магазин</a></li>
+                                <li class="menu__item"><a href="solutions.html" class="menu__link">Готові рішення для СТО</a></li>
+                                <li class="menu__item"><a href="contacts.html" class="menu__link">Контакти</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </main>
+            @@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>

@@ -1,0 +1,42 @@
+//====================================================================================================
+.footer {
+    background-color: #fff;
+    // .footer__container
+
+    &__container {
+        
+        @include adaptiveValue("padding-top",68,10 );
+        @media (max-width:$mobile){
+             padding: rem(13) rem(15) 0 rem(15); 
+        }
+
+    }
+
+    // .footer__info
+
+    &__info {
+        font-weight: 400;
+        font-size: rem(14);
+        line-height: rem(20);
+        text-align: justify;
+        color: #999999;
+    }
+
+    // .footer__text
+
+    &__text {
+    }
+
+    // .footer__name
+
+    &__name {
+        text-align: right;
+        @include adaptiveValue("padding-bottom", 26,10 );
+        @media (max-width:$mobile){
+            text-align: left; 
+            padding-top: rem(5);
+        }
+    }
+}
+
+//====================================================================================================
