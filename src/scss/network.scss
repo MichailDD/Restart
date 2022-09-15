@@ -10,7 +10,7 @@
     &__container-big{
         
         @media (max-width:$mobile){
-              
+            overflow: hidden;
         }
     }
 }
