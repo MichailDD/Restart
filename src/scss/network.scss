@@ -5,6 +5,7 @@
     &__service {
         @media (max-width:$mobile){
              padding: 0 rem(15); 
+             overflow: hidden;
         }
     }
     &__container-big{
