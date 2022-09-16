@@ -5,12 +5,13 @@
     &__service {
         @media (max-width:$mobile){
              padding: 0 rem(15); 
+             overflow: hidden;
         }
     }
     &__container-big{
         
         @media (max-width:$mobile){
-              
+            overflow: hidden;
         }
     }
 }
@@ -64,8 +65,7 @@
         
 
     }
-    &__blok {
-    }
+
 
     // .range__image
 

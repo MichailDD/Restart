@@ -63,13 +63,7 @@
 
 		// .contacts__email
 
-		&__email {
-		}
 
-		// .contacts__schedule
-
-		&__schedule {
-		}
 
 		// .contacts__map
 
@@ -86,13 +80,6 @@
 
 		// .menu__body
 
-		&__body {
-		}
-
-		// .menu__list
-
-		&__list {
-		}
 
 		// .menu__item
 
@@ -113,7 +100,7 @@
 		&__text {
             font-weight: 400;
             font-size: rem(16);
-            line-height: rem(24);
+            line-height: rem(18);
             color: $mainColor;
 
 		}
@@ -133,9 +120,7 @@
         &__span{
             color: #79509A
         }
-		@media (max-width:$tablet){
-			width: rem(300);
-		}
+
 		// .phone__numbers
 
 		&__numbers {
