@@ -18,8 +18,7 @@
 
     // .index__wrapper
 
-    &__wrapper {
-    }
+
 
     // .index__slide
 
@@ -36,8 +35,6 @@
 
     // .index__image
 
-    &__image {
-    }
 }
 .swiper {
 
@@ -63,20 +60,7 @@
 
     }
 }
-// .swiper-wrapper {
-// }
-// .swiper-slide {
-// }
-// .swiper-pagination {
-// }
-// .swiper-button-prev {
-  
-// }
-// .swiper-button-next {
-     
-// }
-// .swiper-scrollbar {
-// }
+
 .proffecional {
     background-color: #F9F9F9;
     @include adaptiveValue("padding-top",74 ,30 );
