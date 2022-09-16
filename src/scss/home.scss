@@ -18,8 +18,7 @@
 
     // .index__wrapper
 
-    &__wrapper {
-    }
+
 
     // .index__slide
 
@@ -36,8 +35,6 @@
 
     // .index__image
 
-    &__image {
-    }
 }
 .swiper {
 
@@ -63,20 +60,7 @@
 
     }
 }
-// .swiper-wrapper {
-// }
-// .swiper-slide {
-// }
-// .swiper-pagination {
-// }
-// .swiper-button-prev {
-  
-// }
-// .swiper-button-next {
-     
-// }
-// .swiper-scrollbar {
-// }
+
 .proffecional {
     background-color: #F9F9F9;
     @include adaptiveValue("padding-top",74 ,30 );
@@ -195,7 +179,7 @@
     &__card {
         background-color: #fff;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: rem(32);
         position: absolute;
         @include adaptiveValue("width",280 ,290 );
@@ -210,7 +194,7 @@
 }
 .card-left {
     left: 0;
-    top: rem(340);
+    top: rem(341);
 }
 .card {
 
@@ -227,8 +211,6 @@
 
     // .card__title
 
-    &__title {
-    }
 
     // .card__btn
 
