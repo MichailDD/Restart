@@ -179,7 +179,7 @@
     &__card {
         background-color: #fff;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: rem(32);
         position: absolute;
         @include adaptiveValue("width",280 ,290 );
