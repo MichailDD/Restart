@@ -155,15 +155,6 @@
 
     // .service__title
 
-    &__title {
-    }
-
-    // .service__center
-
-    &__center {
-        
-    }
-}
 .center {
     @include adaptiveValue("padding-top",28 ,10 );
     display: flex;
